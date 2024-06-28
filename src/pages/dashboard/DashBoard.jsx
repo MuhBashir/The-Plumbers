@@ -54,7 +54,7 @@ const Dashboard = () => {
           </p>
 
           <ToggLable buttonLabel='View profile'>
-            <div className='flex flex-col items-center shadow-md text-blue md:text-xl w-full lg:w-[50%] mx-auto'>
+            <div className='flex flex-col items-center shadow-md justify-center text-blue md:text-xl w-full lg:w-[50%] mx-auto'>
               <div className='w-24 h-24 mb-10'>
                 <img
                   src={user?.profileImage}
@@ -62,7 +62,7 @@ const Dashboard = () => {
                   className='bg-cover rounded-full w-[100%] h-[100%]'
                 />
               </div>
-              <div className='text-left p-3'>
+              <div className='text-leftflex flex-col items-center justify-center text-sm'>
                 <p className='my-1'>First Name: {user?.firstName}</p>
                 <hr />
                 <p className='my-1'>Last Name: {user?.lastName}</p>
