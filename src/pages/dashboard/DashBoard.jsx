@@ -62,7 +62,7 @@ const Dashboard = () => {
                   className='bg-cover rounded-full w-[100%] h-[100%]'
                 />
               </div>
-              <div className='text-leftflex flex-col items-center justify-center text-sm'>
+              <div className='text-leftflex flex-col items-center justify-center text-sm p-1'>
                 <p className='my-1'>First Name: {user?.firstName}</p>
                 <hr />
                 <p className='my-1'>Last Name: {user?.lastName}</p>
